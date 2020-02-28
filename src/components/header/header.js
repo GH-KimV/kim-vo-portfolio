@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TypingComponent from '../TypingComponent';
+import TypingComponent from './TypingComponent';
 
 
 export default class Header extends Component {
@@ -28,7 +28,7 @@ export default class Header extends Component {
                  
 <TypingComponent/>
               </h1>
-               <h3>I am a {resumeData.role}. {resumeData.roleDescription}
+               <h3>I am a {resumeData.role} {resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
