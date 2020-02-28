@@ -807,12 +807,14 @@ call-to-action .button {
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
-	padding-right: 10px;
 	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
+   /* line-height: 72px; */
+   float: center;
    color: #ebeeee;
+   position:relative;
+   text-align: center;
+   top: 530px;
+   right: 230px;
 }
 
 #contact h4 {
@@ -828,18 +830,19 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; margin-right: 300px;}
+#contact form { margin-bottom: 30px; margin-right: 250px;}
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
    width: 26%;
+   text-align: center;
 }
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
+   padding: 20px ;
 	color: rgb(18, 119, 122);
 	background: #fff;
 	margin-bottom: 42px;
@@ -847,8 +850,16 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
-   
+   width: 35%;
+   /* text-align: center; */
+   /* position:relative; */
+
+}
+#contactMsg{
+   /* left:100px */
+}
+#contactBtn{
+   margin-left:245px
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -867,6 +878,7 @@ call-to-action .button {
    display: inline-block;
 	border-radius: 3px;
    margin-left: 26%;
+   text-align:center;
 }
 #contact input.submit:hover {
 	color: #0D0D0D;
