@@ -1,5 +1,6 @@
 import React, { Component, useState, useEffect, useRef } from 'react';
 import Header from './components/header/header';
+import Navbar from './components/header/Navbar';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
@@ -13,6 +14,7 @@ class App extends Component {
     render() {
         return (
             <div className='App'>
+              <Navbar/>
                 <ScrollAnimation animateIn='fadeIn'>
                     <Header resumeData={resumeData} />
                 </ScrollAnimation>
