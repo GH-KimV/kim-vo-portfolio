@@ -20,7 +20,8 @@ let resumeData = {
         }
     ],
     aboutme:
-        "I have a Bachelor's Degree in Information Systems and have been working in the software industry for less than a year.",
+        "As an alumnus of California State University, Fullerton, I utilized my knowledge and education in Information Systems to work in various roles within the tech industry. From Tech Support Supervisor to Project Manager at an enterprise-level software company. I’ve gained a wide range of experiences and skills that are essential to software development." +
+        "\n Furthermore, my curiosity and constant need to seek out technical challenges led me down the engineering path of the software industry. My experience as Project Manager served as a catalyst for attending Redwood Code Academy wherein I am now professionally trained to pursue my passion for software development.",
     address: 'Orange County, CA',
     website: 'kimlongt.vo@gmail.com',
     education: [
