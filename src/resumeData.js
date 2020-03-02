@@ -42,6 +42,14 @@ let resumeData = {
     ],
     work: [
         {
+            CompanyName: 'Codazen',
+            specialization: 'Engineer Intern',
+            MonthOfLeaving: 'January',
+            YearOfLeaving: '2020',
+            Achievements:
+                'Played a key role as a web developer for internal projects and marketing sites. Worked closely with design team and project managers; utilized the latest frontend web technologies to build elegant and modern websites and web applications. '
+        },
+        {
             CompanyName: 'FundedU',
             specialization: 'Full Stack Developer',
             MonthOfLeaving: 'August',
@@ -55,7 +63,7 @@ let resumeData = {
             MonthOfLeaving: 'May',
             YearOfLeaving: '2019',
             Achievements:
-                'A part of the Solutions Team, which managed the implementation of enterprise software solutions.'
+                'A part of the Solutions Team, which managed the implementation of enterprise software solutions. Performed and managed application installation, configuration, and development. Ensured proper functionalities, documentation, and roll‐out procedures.'
         }
     ],
     skillsDescription: 'Tech Summary',
@@ -68,6 +76,9 @@ let resumeData = {
         },
         {
             skillname: 'Reactjs'
+        },
+        {
+            skillname: 'C-Sharp'
         },
         {
             skillname: 'sql'
