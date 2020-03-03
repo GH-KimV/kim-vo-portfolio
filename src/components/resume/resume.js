@@ -36,6 +36,7 @@ export default class Resume extends Component {
                             })}
                     </div>
                 </div>
+                <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
 
                 <div className='row education'>
                     <div className='three columns header-col'>
@@ -64,6 +65,7 @@ export default class Resume extends Component {
                             })}
                     </div>
                 </div>
+                </ScrollAnimation>
 
                 <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
                     <div className='row skill'>
