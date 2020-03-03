@@ -15,7 +15,7 @@ class App extends Component {
         return (
             <div className='App'>
               <Navbar/>
-                <ScrollAnimation animateIn='fadeIn'>
+                <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
                     <Header resumeData={resumeData} />
                 </ScrollAnimation>
 
@@ -23,6 +23,7 @@ class App extends Component {
                     animateIn='fadeIn'
                     animatePreScroll={false}
                     delay={500}
+                    animateOut='fadeOut'
                 >
                     <About resumeData={resumeData} />
                 </ScrollAnimation>
@@ -31,6 +32,7 @@ class App extends Component {
                     animateIn='fadeIn'
                     animatePreScroll={false}
                     delay={500}
+                    animateOut='fadeOut'
                 >
                     <Resume resumeData={resumeData} />
                 </ScrollAnimation>
@@ -39,6 +41,7 @@ class App extends Component {
                     animateIn='fadeIn'
                     animatePreScroll={false}
                     delay={500}
+                    animateOut='fadeOut'
                 >
                     <Portfolio resumeData={resumeData} />
                 </ScrollAnimation>
@@ -47,6 +50,7 @@ class App extends Component {
                     animateIn='fadeIn'
                     animatePreScroll={false}
                     delay={500}
+                    animateOut='fadeOut'
                 >
                     <Testimonials resumeData={resumeData} />
                 </ScrollAnimation>
@@ -55,6 +59,7 @@ class App extends Component {
                     animateIn='fadeIn'
                     animatePreScroll={false}
                     delay={500}
+                    animateOut='fadeOut'
                 >
                     <ContactUs resumeData={resumeData} />
                 </ScrollAnimation>
