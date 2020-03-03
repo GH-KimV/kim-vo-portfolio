@@ -313,7 +313,8 @@ ul#nav li a:hover { color: #F06000; }
    position: relative;
 	top: -36px;
 }
-.bar-expand {
+
+.bar-expand1, .bar-expand2, .bar-expand3, .bar-expand4, .bar-expand5 {
    position: absolute;
    left: 0;
    top: 0;
@@ -326,11 +327,16 @@ ul#nav li a:hover { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-
 .c-sharp {
    width: 70%;
-   -moz-animation: c-sharp 2s ease;
+   -moz-animation: c-sharp 2s  ease;
    -webkit-animation: c-sharp 2s ease;
+}
+
+.html5 {
+   width: 90%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
 }
 
 .sql {
@@ -343,11 +349,7 @@ ul#nav li a:hover { color: #F06000; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 90%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
+
 .reactjs {
   	width: 90%;
   	-moz-animation: reactjs 2s ease;
@@ -359,6 +361,11 @@ ul#nav li a:hover { color: #F06000; }
    100% { width: 70%;  }
  }
 
+ @keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+
 @keyframes sql {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -368,10 +375,7 @@ ul#nav li a:hover { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
+
 @keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 90%;  }

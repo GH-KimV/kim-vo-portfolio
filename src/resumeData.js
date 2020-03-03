@@ -67,23 +67,6 @@ let resumeData = {
         }
     ],
     skillsDescription: 'Tech Summary',
-    skills: [
-        {
-            skillname: 'HTML5'
-        },
-        {
-            skillname: 'CSS'
-        },
-        {
-            skillname: 'Reactjs'
-        },
-        {
-            skillname: 'C-Sharp'
-        },
-        {
-            skillname: 'sql'
-        }
-    ],
     portfolio: [
         {
             name: 'project1',

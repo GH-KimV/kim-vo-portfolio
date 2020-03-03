@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default class Resume extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
             <section id='resume'>
-              
                 <div className='row work'>
                     <div className='three columns header-col'>
                         <h1>
@@ -64,31 +65,42 @@ export default class Resume extends Component {
                     </div>
                 </div>
 
-                <div className='row skill'>
-                    <div className='three columns header-col'>
-                        <h1>
-                            <span>Skills</span>
-                        </h1>
-                    </div>
-                    <div className='nine columns main-col'>
-                        <div class='row'></div>
-                        <div className='bars'>
-                            <ul className='skills'>
-                                {resumeData.skills &&
-                                    resumeData.skills.map(item => {
-                                        return (
-                                            <li>
-                                                <span
-                                                    className={`bar-expand ${item.skillname.toLowerCase()}`}
-                                                ></span>
-                                                <em>{item.skillname}</em>
-                                            </li>
-                                        );
-                                    })}
-                            </ul>
+                <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+                    <div className='row skill'>
+                        <div className='three columns header-col'>
+                            <h1>
+                                <span>Skills</span>
+                            </h1>
+                        </div>
+                        <div className='nine columns main-col'>
+                            <div class='row'></div>
+                            <div className='bars'>
+                                <ul className='skills'>
+                                    <li>
+                                        <span className='bar-expand1'></span>
+                                        <em>Javascript </em>
+                                    </li>
+                                    <li>
+                                        <span className='bar-expand2'></span>
+                                        <em>HTML5 / CSS3</em>
+                                    </li>
+                                    <li>
+                                        <span className='bar-expand3'></span>
+                                        <em>C#</em>
+                                    </li>
+                                    <li>
+                                        <span className='bar-expand4'></span>
+                                        <em>SQL</em>
+                                    </li>
+                                    <li>
+                                        <span className='bar-expand5'></span>
+                                        <em>ReactJS</em>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </ScrollAnimation>
             </section>
         );
     }
