@@ -180,8 +180,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
-
+ul#nav li.current a { color: #F06000; border-bottom: 0.2rem solid #F06000; }
+ul#nav li a:hover { color: #F06000; }
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -266,7 +266,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: black;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -277,6 +277,10 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume .work-descriptions {
+   color: black;
 }
 
 /*----------------------------------------------*/
@@ -309,7 +313,8 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
-.bar-expand {
+
+.bar-expand1, .bar-expand2, .bar-expand3, .bar-expand4, .bar-expand5 {
    position: absolute;
    left: 0;
    top: 0;
@@ -322,47 +327,58 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.c-sharp {
+   width: 70%;
+   -moz-animation: c-sharp 2s  ease;
+   -webkit-animation: c-sharp 2s ease;
+}
+
+.html5 {
+   width: 90%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+
 .sql {
   	width: 60%;
   	-moz-animation: sql 2s ease;
   	-webkit-animation: sql 2s ease;
 }
 .css {
-  	width: 70%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
+
 .reactjs {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: reactjs 2s ease;
   	-webkit-animation: reactjs 2s ease;
 }
+
+@keyframes c-sharp {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+
+ @keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
 
 @keyframes sql {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+
 @keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 
-@-webkit-keyframes sql {
+@keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 
 /* ------------------------------------------------------------------ */
