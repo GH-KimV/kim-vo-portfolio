@@ -13,8 +13,8 @@ const ContactUs = () => {
                     <span>714.728.9334</span>
                 </p>
                 <div className='icon-container'>
-                    <h1></h1>
-                    <h2></h2>
+                    <a href='mailto:kimlongt.vo@gmail.com?Subject=Hello!' className='email'></a>
+                    <a href="tel:714-728-9334"className='phone'></a>
                 </div>
             </div>
             <div className='section-head'></div>
