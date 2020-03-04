@@ -372,6 +372,15 @@
     }
 
     /* form */
+
+    #contact form {
+      padding: 3rem;
+  }
+
+  #contact p.lead {
+   padding: 1rem;
+  }
+
     #contact label {
         float: none;
         width: 100%;
