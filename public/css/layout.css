@@ -107,7 +107,7 @@ header .social li a {
     color: #fff;
 }
 header .social li a:hover {
-    color: #11abb0;
+    color: #f06000;
 }
 
 /* scrolldown link */
@@ -275,9 +275,31 @@ ul#nav li a:hover {
 
 #resume {
     background: #fff;
-    padding-top: 90px;
-    padding-bottom: 72px;
+padding: 6rem 0;
     overflow: hidden;
+}
+
+#resume .resume {
+    text-align: center;
+    color: black;
+    margin-bottom: 4rem;
+    font: 3rem 'opensans-bold', sans-serif;
+}
+
+#resume .resume a:before {
+    font-family: 'FontAwesome';
+    content: '\f019';
+    font-size: 3rem;
+    line-height: 3rem;
+    color: black;
+    padding: 0.5rem;
+    margin-left: 1.4rem;
+    border: 0.3rem dotted #11abb0;
+    cursor: pointer;
+}
+
+#resume .resume a:hover {
+    color: #f06000;
 }
 
 #resume a,
@@ -876,10 +898,6 @@ ul#nav li a:hover {
     margin: 0;
 }
 
-/* #contactMessage {
-   margin:0;
-} */
-
 #contact a,
 #contact a:visited {
     color: #11abb0;
@@ -906,20 +924,22 @@ ul#nav li a:hover {
     padding: 2rem;
 }
 
-#contact h1:before {
+#contact .email:before {
     font-family: 'FontAwesome';
     content: '\f0e0';
     font-size: 6rem;
     color: #ebeeee;
     margin-right: 3rem;
+    cursor: pointer;
 }
 
-#contact h2:before {
+.phone:before {
     font-family: 'FontAwesome';
     content: '\f095';
     font-size: 6rem;
     color: #ebeeee;
     margin-left: 3rem;
+    cursor: pointer;
 }
 
 #contact h4 {
@@ -955,7 +975,6 @@ ul#nav li a:hover {
 #contact textarea,
 #contact select {
     padding: 1rem;
-    /* color: rgb(18, 119, 122); */
     background: #fff;
     margin-bottom: 1rem;
     border: 0;
@@ -1071,7 +1090,8 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-    color: #11abb0;
+    color: #f06000;
+    ;
 }
 
 /* copyright */

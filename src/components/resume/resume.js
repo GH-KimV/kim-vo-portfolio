@@ -6,6 +6,10 @@ export default class Resume extends Component {
         let resumeData = this.props.resumeData;
         return (
             <section id='resume'>
+                <div className='resume'>
+                    Resume
+                    <a href="../images/KimVo.pdf" download className='download-resume'></a>
+                </div>
                 <div className='row work'>
                     <div className='three columns header-col'>
                         <h1>
