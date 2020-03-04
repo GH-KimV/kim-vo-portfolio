@@ -40,7 +40,7 @@ header {
             rgba(82, 65, 48, 0.8) 0%,
             rgba(31, 32, 48, 0.8) 100%
         ),
-        url(../images/header6.jpg) no-repeat top center;
+        url(../images/header.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -170,14 +170,10 @@ header .scrolldown a:hover {
 ul#nav {
     min-height: 48px;
     width: auto;
-
-    /* center align the menu */
-    /* text-align: center; */
 }
 ul#nav li {
     position: relative;
     list-style: none;
-    /* height: 48px; */
     display: inline;
 }
 
@@ -575,55 +571,6 @@ ul#nav li a:hover {
     filter: alpha(opacity=100);
 }
 
-/* popup modal */
-/* .popup-modal {
-    max-width: 550px;
-    background: #fff;
-    position: relative;
-    margin: 0 auto;
-}
-.popup-modal .description-box {
-    padding: 12px 36px 18px 36px;
-}
-.popup-modal .description-box h4 {
-    font: 15px/24px 'opensans-bold', sans-serif;
-    margin-bottom: 12px;
-    color: #111;
-}
-.popup-modal .description-box p {
-    font: 14px/24px 'opensans-regular', sans-serif;
-    color: #a1a1a1;
-    margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-    font: 11px/21px 'opensans-light', sans-serif;
-    color: #a1a1a1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: block;
-    text-align: left;
-}
-.popup-modal .description-box .categories i {
-    margin-right: 8px;
-}
-.popup-modal .link-box {
-    padding: 18px 36px;
-    background: #111;
-    text-align: left;
-}
-.popup-modal .link-box a {
-    color: #fff;
-    font: 11px/21px 'opensans-bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    cursor: pointer;
-}
-.popup-modal a:hover {
-    color: #00cccc;
-}
-.popup-modal a.popup-modal-dismiss {
-    margin-left: 24px;
-} */
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -707,7 +654,7 @@ ul#nav li a:hover {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1f1f1f url(../images/header3.jpg) no-repeat center center;
+    background: #1f1f1f url(../images/testimonialsBG.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -762,12 +709,20 @@ ul#nav li a:hover {
     color: #fff;
 }
 #testimonials blockquote cite {
+   margin-top: 1.8rem;
     display: block;
-    font-size: 12px;
+    font-size: 2rem;
     font-style: normal;
+    font-weight: 600;
     line-height: 18px;
     color: #fff;
 }
+
+#testimonials blockquote span {
+   font-style: italic;
+   font-weight: 400;
+}
+
 #testimonials blockquote cite:before {
     content: '\2014 \0020';
 }
@@ -776,6 +731,7 @@ ul#nav li a:hover {
     color: #8b9798;
     border: none;
 }
+
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -971,10 +927,6 @@ ul#nav li a:hover {
     width: 35%;
 }
 
-#contactMsg {
-    /* left:100px */
-}
-
 #contactBtn {
     margin-left: 245px;
 }
@@ -1070,7 +1022,6 @@ footer {
     padding-top: 48px;
     margin-bottom: 48px;
     color: #fff;
-    /* color: rgba(82, 65, 48, 0.8); */
     font-size: 14px;
     text-align: center;
     position: relative;

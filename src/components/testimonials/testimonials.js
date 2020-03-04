@@ -20,7 +20,12 @@ export default class Testimonials extends Component {
                             <p>
                             {item.description}
                             </p>
-                            <cite>{item.name}</cite>
+                            <cite>
+                              {item.name}, 
+                              <span>
+                            {item.position}
+                              </span>
+                              </cite>
                           </blockquote>
                         </li>
                       )
