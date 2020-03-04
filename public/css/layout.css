@@ -239,7 +239,7 @@ ul#nav li a:hover {
     margin-bottom: 12px;
 }
 #about p {
-   font-size: 1.7rem;
+    font-size: 1.7rem;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -478,19 +478,18 @@ ul#nav li a:hover {
 
 /* Portfolio Content */
 #portfolio-wrapper {
-   text-align: center;
+    text-align: center;
 }
 
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
-
 }
 .portfolio-item .item-wrap {
     background: #fff;
     overflow: hidden;
     position: relative;
     display: inline-block;
-   border: 1px solid white;
+    border: 1px solid white;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -572,7 +571,6 @@ ul#nav li a:hover {
     -moz-opacity: 1;
     filter: alpha(opacity=100);
 }
-
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -656,7 +654,8 @@ ul#nav li a:hover {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1f1f1f url(../images/testimonialsBG.jpg) no-repeat center center;
+    background: #1f1f1f url(../images/testimonialsBG.jpg) no-repeat center
+        center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -678,12 +677,12 @@ ul#nav li a:hover {
 }
 
 #testimonials h2 {
-   font: 3rem 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-   text-align: center;
-   padding-bottom: 4rem;
+    font: 3rem 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 4rem;
 }
 
 #testimonials .header-col h1:before {
@@ -695,16 +694,16 @@ ul#nav li a:hover {
 }
 
 #testimonials .header-col h2:before {
-   font-family: 'FontAwesome';
-   content: '\f10e';
-   font-size: 30px;
-   line-height: 30px;
-   float: right;
-   color: #fff;
+    font-family: 'FontAwesome';
+    content: '\f10e';
+    font-size: 30px;
+    line-height: 30px;
+    float: right;
+    color: #fff;
 }
 
 #testimonials .header-col p {
-   padding: 1rem;
+    padding: 1rem;
 }
 
 /*	Blockquotes */
@@ -725,7 +724,7 @@ ul#nav li a:hover {
     color: #fff;
 }
 #testimonials blockquote cite {
-   margin-top: 3rem;
+    margin-top: 3rem;
     display: block;
     font-size: 2.2rem;
     font-style: normal;
@@ -737,8 +736,8 @@ ul#nav li a:hover {
 }
 
 #testimonials blockquote span {
-   font-style: italic;
-   font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
 }
 
 #testimonials blockquote cite:before {
@@ -749,7 +748,6 @@ ul#nav li a:hover {
     color: #8b9798;
     border: none;
 }
-
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -837,9 +835,9 @@ ul#nav li a:hover {
 }
 
 .flex-control-paging {
-   position: relative;
-   left: 7.2rem;
-   margin: 0;
+    position: relative;
+    left: 7.2rem;
+    margin: 0;
 }
 
 .flex-control-paging li a {
@@ -872,14 +870,15 @@ ul#nav li a:hover {
 
 #contact {
     background: rgb(26, 34, 46);
-    padding-top: 96px;
-    padding-bottom: 102px;
     color: rgba(255, 255, 255, 0.85);
-    text-align: center;
 }
 #contact .section-head {
-    margin-bottom: 42px;
+    margin: 0;
 }
+
+/* #contactMessage {
+   margin:0;
+} */
 
 #contact a,
 #contact a:visited {
@@ -900,42 +899,55 @@ ul#nav li a:hover {
 #contact h1 span {
     display: none;
 }
+
+#contact .icon-container {
+    display: inline-flex;
+    margin-top: 8rem;
+}
+
 #contact h1:before {
     font-family: 'FontAwesome';
     content: '\f0e0';
-    font-size: 72px;
-    float: center;
+    font-size: 8rem;
     color: #ebeeee;
-    position: relative;
-    text-align: center;
-    top: 530px;
-    right: 230px;
+    margin-right: 3rem;
+}
+
+#contact h2:before {
+    font-family: 'FontAwesome';
+    content: '\f095';
+    font-size: 8rem;
+    color: #ebeeee;
+    margin-left: 3rem;
 }
 
 #contact h4 {
-    font: 16px/24px 'opensans-bold', sans-serif;
+    font: 5rem 'opensans-bold', sans-serif;
     color: #ebeeee;
-    margin-bottom: 6px;
+    margin-bottom: 2rem;
 }
 #contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
-    padding-right: 3%;
+    color: white;
+    font: 2rem 'opensans-light', sans-serif;
 }
 #contact .header-col {
     padding-top: 6px;
 }
 
-/* contact form */
-#contact form {
-    margin-bottom: 30px;
-    margin-right: 250px;
+#contact .contact-info {
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
 }
+
+.form {
+    text-align: center;
+}
+
 #contact label {
     font: 15px/24px 'opensans-bold', sans-serif;
     margin: 12px 0;
     color: #ebeeee;
-    display: inline-block;
-    width: 26%;
     text-align: center;
 }
 #contact input,
