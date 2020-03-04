@@ -950,6 +950,8 @@ padding: 6rem 0;
 #contact p.lead {
     color: white;
     font: 1.6rem 'opensans-light', sans-serif;
+    line-height: 3.1rem;
+
 }
 #contact .header-col {
     padding-top: 6px;

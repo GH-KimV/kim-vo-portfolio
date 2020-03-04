@@ -19,9 +19,9 @@ const ContactUs = () => {
             </div>
             <div className='section-head'></div>
             <p className='lead'>
-                To contact me for any work or suggestions, please fill out the
-                form and click submit. <br />
-                Please allow 24-hrs for response.{' '}
+                To contact me for any work or suggestions, you can click on the icons above or fill out the
+                form below and click submit. <br />
+                Please allow 24-hrs for email response.{' '}
             </p>
 
             <div className='row'>
