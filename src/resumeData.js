@@ -74,30 +74,17 @@ let resumeData = {
             imgurl: 'images/portfolio/codazenLabs.png',
             link:'https://www.codazen.com/labs/'
         },
-        // {
-        //     name: 'project2',
-        //     description: 'mobileapp',
-        //     imgurl: 'images/portfolio/project.jpg'
-        // },
-        // {
-        //     name: 'project3',
-        //     description: 'mobileapp',
-        //     imgurl: 'images/portfolio/project2.png'
-        // },
-        // {
-        //     name: 'project4',
-        //     description: 'mobileapp',
-        //     imgurl: 'images/portfolio/phone.jpg'
-        // }
     ],
     testimonials: [
         {
-            description: 'A wonderful testimonial will soon be displayed here!',
-            name: 'Some technical guy'
+            description: 'Kim is a hard working and dedicated individual. I had the pleasure of working with Kim on a marketing project. Kim was always finding innovative ways and implementing modern technologies to improve our online presence. Kim is a great asset and an outstanding team member.',
+            name: 'Mario Melchor',
+            position: ' Web Developer at Codazen'
         },
         {
-            description: 'Another one!',
-            name: 'Some other technical guy'
+            description: 'In my years of mentorship Kim stands out as one of the best. He is a quick learner and up and coming software engineer. I was impressed with how quickly Kim was able to grasp concepts. Kim always had great energy and was always eager to learn more. Any team would be lucky to have Kim as a member.',
+            name: 'Bryan Tran',
+            position: ' Full Stack Developer at TeeFury'
         }
     ]
 };
