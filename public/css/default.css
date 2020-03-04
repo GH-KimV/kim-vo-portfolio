@@ -294,7 +294,7 @@ p img {
 p.lead {
     font: 19px/36px 'opensans-light', sans-serif;
     text-align: center;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
@@ -660,7 +660,7 @@ input[type='button'] {
     letter-spacing: 0;
     color: #fff;
     padding: 12px 20px;
-    margin-bottom: 8rem;
+    margin: 3rem auto 7rem;
     border: none;
     cursor: pointer;
     height: auto;
@@ -752,7 +752,7 @@ textarea:focus {
 }
 
 textarea {
-    min-height: 220px;
+    min-height: 15rem;
     margin: auto;
 }
 
