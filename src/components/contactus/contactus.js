@@ -74,7 +74,7 @@ const ContactUs = () => {
                                     Message <span className='required'>*</span>
                                 </label>
                                 <textarea
-                                    cols='50'
+                                    cols='10'
                                     placeholder='Send Me Your Message!'
                                     rows='10'
                                     id='contactMessage'
