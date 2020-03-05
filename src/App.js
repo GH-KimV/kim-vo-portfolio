@@ -16,6 +16,12 @@ class App extends Component {
     render() {
         ReactGA.initialize('UA-159824915-1');
         ReactGA.pageview('/#home');
+        ReactGA.pageview('/#about');
+        ReactGA.pageview('/#resume');
+        ReactGA.pageview('/#portfolio');
+        ReactGA.pageview('/#testimonials');
+        ReactGA.pageview('/#contact');
+
         return (
             <div className='App'>
               <Navbar/>
