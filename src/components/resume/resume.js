@@ -8,7 +8,7 @@ export default class Resume extends Component {
             <section id='resume'>
                 <div className='resume'>
                     Resume
-                    <a href="../images/KimVo.pdf" download className='download-resume'></a>
+                    <a href="../images/Kim Vo.pdf" download className='download-resume'></a>
                 </div>
                 <div className='row work'>
                     <div className='three columns header-col'>
