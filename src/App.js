@@ -9,9 +9,13 @@ import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 import resumeData from './resumeData';
 import ScrollAnimation from 'react-animate-on-scroll';
+import ReactGA from 'react-ga';
+
 
 class App extends Component {
     render() {
+        ReactGA.initialize('UA-159824915-1');
+        ReactGA.pageview('/#home');
         return (
             <div className='App'>
               <Navbar/>
