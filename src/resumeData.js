@@ -85,7 +85,12 @@ let resumeData = {
             description: 'In my years of mentorship Kim stands out as one of the best. He is a quick learner and up and coming software engineer. I was impressed with how quickly Kim was able to grasp concepts. Kim always had great energy and was always eager to learn more. Any team would be lucky to have Kim as a member.',
             name: 'Bryan Tran',
             position: ' Full Stack Developer at TeeFury'
-        }
+        },
+        {
+            description: 'Kim was great to work with! Not only does he have a great personality, he was also able to handle the pressure of a tight deadline and took direction to reach pixel perfection with stride. I appreciated his proactive approach to problem-solving and collaboration.',
+            name: 'Nancy Cadena',
+            position: ' UX Product Designer at Codazen'
+        },
     ]
 };
 
