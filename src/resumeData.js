@@ -74,6 +74,18 @@ let resumeData = {
             imgurl: 'images/portfolio/codazenLabs.png',
             link:'https://www.codazen.com/labs/'
         },
+        {
+            name: 'Tick Talks',
+            description: 'Stock tweets web app',
+            imgurl: 'images/portfolio/tickTalks.png',
+            link:'https://ecstatic-snyder-38913d.netlify.app/'
+        },
+        {
+            name: 'Contact Keeper',
+            description: 'Full stack Contact Keeper web app',
+            imgurl: 'images/portfolio/contactKeeper1.png',
+            link:'https://salty-wave-58566.herokuapp.com/'
+        },
     ],
     testimonials: [
         {

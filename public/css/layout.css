@@ -506,6 +506,11 @@ padding: 6rem 0;
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
 }
+
+.portfolio-item {
+    margin: 4rem;
+}
+
 .portfolio-item .item-wrap {
     background: #fff;
     overflow: hidden;
@@ -517,6 +522,8 @@ padding: 6rem 0;
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    margin-bottom: 5rem;
+    width: 42rem;
 }
 .portfolio-item .item-wrap a {
     display: block;
