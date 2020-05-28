@@ -622,6 +622,13 @@ padding: 6rem 0;
     opacity: 0;
 }
 
+
+@media only screen and (max-width: 800px) {
+   .portfolio-item .item-wrap {
+        width: 25rem;
+    }
+}
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
