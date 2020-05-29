@@ -625,7 +625,7 @@ padding: 6rem 0;
 
 @media only screen and (max-width: 800px) {
    .portfolio-item .item-wrap {
-        width: 22rem;
+        width: 25rem;
     }
 }
 
