@@ -81,6 +81,12 @@ let resumeData = {
             link:'https://ecstatic-snyder-38913d.netlify.app/'
         },
         {
+            name: 'US COVID-19 Tracker',
+            description: 'A COVID-19 stats tracker app for the US',
+            imgurl: 'images/portfolio/US-COVID-tracker.png',
+            link:'https://zen-heisenberg-7e87fc.netlify.app'
+        },
+        {
             name: 'Contact Keeper',
             description: 'Full stack Contact Keeper web app',
             imgurl: 'images/portfolio/contactKeeper1.png',
