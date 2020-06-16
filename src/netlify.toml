@@ -1,1 +1,1 @@
-process.env.CI= npm run build
+process.env.CI=true npm run build
