@@ -89,7 +89,7 @@ let resumeData = {
         {
             name: 'Contact Keeper',
             description: 'Full stack Contact Keeper web app',
-            imgurl: 'images/portfolio/contactKeeper1.png',
+            imgurl: 'images/portfolio/contactKeeper.png',
             link:'https://salty-wave-58566.herokuapp.com/'
         },
     ],
