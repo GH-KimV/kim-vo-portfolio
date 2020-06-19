@@ -218,8 +218,8 @@ ul#nav li a:hover {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: rgba(26, 34, 46);
-    padding-top: 96px;
+    background: white;
+    /* padding-top: 96px; */
     padding-bottom: 66px;
     overflow: hidden;
 }
@@ -234,14 +234,102 @@ ul#nav li a:hover {
 }
 
 #about h2 {
+    text-align: center;
     font: 3.2rem 'opensans-bold', sans-serif;
-    color: #fff;
-    margin-bottom: 12px;
+    color: black;
+    margin-bottom: 8rem;
 }
+
+#about div .line-4 {
+    position: absolute;
+    width: 27.25px;
+    height: 0px;
+    left: 49px;
+    top: 13px;
+    border: 1px solid #000000;
+}
+
+#about div .line-6 {
+    position: absolute;
+    width: 27.25px;
+    height: 0px;
+    left: 299.75px;
+    top: 13px;
+    border: 1px solid #000000;
+}
+
+#about div .line-5 {
+    position: absolute;
+    width: 26.98px;
+    height: 0px;
+    left: 314.95px;
+    top: 25px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+#about div .line-7 {
+    position: absolute;
+    width: 26.98px;
+    height: 0px;
+    left: 314.95px;
+    top: 90px;
+
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+
+#about div .line-8 {
+    position: absolute;
+    width: 27.25px;
+    height: 0px;
+    left: 299.75px;
+    top: 102px;
+
+    
+    border: 1px solid #000000;
+}
+
+#about div .line-10 {
+    position: absolute;
+    width: 27.25px;
+    height: 0px;
+    left: 47px;
+    top: 102px;
+    
+    border: 1px solid #000000;
+}
+
+#about div .line-9 {
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    left: 34px;
+    top: 89.45px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+#about div .line-3 {
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    left: 34.5px;
+    top: 25.5px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
 #about p {
     font-size: 1.7rem;
     line-height: 30px;
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: black;
 }
 #about .profile-pic {
     position: relative;
@@ -269,13 +357,35 @@ ul#nav li a:hover {
     font-size: 20px;
 }
 
+/* scrolldown link */
+#about .scrolldown a {
+    position: relative;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 100%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+header .scrolldown a:hover {
+    /* color: #f06000; */
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
     background: #fff;
-padding: 6rem 0;
+    padding: 6rem 0;
     overflow: hidden;
 }
 
@@ -622,11 +732,9 @@ padding: 6rem 0;
     opacity: 0;
 }
 
-
 @media only screen and (max-width: 800px) {
-   .portfolio-item .item-wrap {
+    .portfolio-item .item-wrap {
         width: 25rem;
-
     }
 }
 
@@ -1109,7 +1217,6 @@ footer a:visited {
 footer a:hover,
 footer a:focus {
     color: #f06000;
-    ;
 }
 
 /* copyright */
