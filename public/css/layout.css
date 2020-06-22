@@ -234,106 +234,18 @@ ul#nav li a:hover {
 }
 
 #about h2 {
+    padding: 2.5rem 0;
     text-align: center;
     font: 3.2rem 'opensans-bold', sans-serif;
     color: black;
     margin-bottom: 8rem;
-    /* border: 1px black;
-    border-style: solid; */
     outline: 4px double black;
-outline-offset: 4px;
+    outline-offset: 4px;
 }
-
-/* #about div .line-4 {
-    position: absolute;
-    width: 27.25px;
-    height: 0px;
-    left: 88px;
-    top: 13px;
-    border: 1px solid #000000;
-}
-
-#about div .line-6 {
-    position: absolute;
-    width: 27.25px;
-    height: 0px;
-    left: 299px;
-    top: 13px;
-    border: 1px solid #000000;
-}
-
-#about div .line-5 {
-    position: absolute;
-    width: 26.98px;
-    height: 0px;
-    left: 314px;
-    top: 25px;
-    
-    border: 1px solid #000000;
-    transform: rotate(90deg);
-}
-
-#about div .line-7 {
-    position: absolute;
-    width: 26.98px;
-    height: 0px;
-    left: 314px;
-    top: 72.49999px;
-
-
-    
-    border: 1px solid #000000;
-    transform: rotate(90deg);
-}
-
-
-#about div .line-8 {
-    position: absolute;
-    width: 27.25px;
-    height: 0px;
-    left: 299px;
-    top: 85px;
-
-    
-    border: 1px solid #000000;
-}
-
-#about div .line-10 {
-    position: absolute;
-    width: 27.25px;
-    height: 0px;
-    left: 88px;
-    top: 85px;
-    
-    border: 1px solid #000000;
-}
-
-#about div .line-9 {
-    position: absolute;
-    width: 27px;
-    height: 0px;
-    left: 74px;
-    top: 72.49999px;
-    
-    border: 1px solid #000000;
-    transform: rotate(90deg);
-}
-
-#about div .line-3 {
-    position: absolute;
-    width: 27px;
-    height: 0px;
-    left: 74.5px;
-    top: 25.5px;
-    
-    border: 1px solid #000000;
-    transform: rotate(90deg);
-} */
 
 #about p {
     font-size: 1.7rem;
     line-height: 30px;
-    /* color: rgba(255, 255, 255, 0.8); */
     color: black;
 }
 #about .profile-pic {
