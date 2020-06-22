@@ -22,7 +22,7 @@ export default class Header extends Component {
                                 {/* {resumeData.roleDescription} */}
                                 {resumeData.role}
                             </h3>
-                            <hr />
+                            {/* <hr />
                             <ul className='social'>
                                 {resumeData.socialLinks &&
                                     resumeData.socialLinks.map(item => {
@@ -41,7 +41,7 @@ export default class Header extends Component {
                                             </li>
                                         );
                                     })}
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
 

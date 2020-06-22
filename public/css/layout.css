@@ -113,10 +113,10 @@ header .social li a:hover {
 
 /* scrolldown link */
 header .scrolldown a {
-    position: absolute;
-    bottom: 200px;
+    position: relative;
+    bottom: 150px;
     left: 50%;
-    margin-left: -29px;
+    margin-left: -20px;
     display: block;
     height: 42px;
     width: 42px;

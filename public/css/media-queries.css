@@ -93,7 +93,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     /* mobile navigation
    -------------------------------------------------------------------- */
     #nav-wrap {
@@ -181,9 +181,11 @@
         border: none;
     }
 
+   
+
     /* Header Styles
    -------------------------------------------------------------------- */
-    header .banner {
+    /* header .banner {
         padding-bottom: 12px;
         padding-top: 6px;
     }
@@ -197,6 +199,56 @@
     header .banner-text hr {
         width: 80%;
         margin: 18px auto;
+    } */
+
+    header .banner {
+        padding-top: 24px;
+    }
+    header .banner-text h1 {
+        font: 40px/1.1em 'opensans-bold', sans-serif;
+        margin: 0 auto 24px auto;
+        position: absolute;
+        width: 349px;
+        height: 392px;
+        left: 10px;
+        top: 186px;
+        color: lightgray;
+        opacity: .45;
+    }
+
+    header .banner-text h2 {
+        position: absolute;
+        width: 251px;
+        height: 86px;
+        left: 75px;
+        top: 280px;
+
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 86px;
+
+        color: #000000;
+    }
+    header .banner-text h3 {
+        position: absolute;
+        width: 269px;
+        height: 29px;
+        left: 75px;
+        top: 380px;
+        
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        
+        /* identical to box height */
+        
+        letter-spacing: 0.165em;
+        
+        color: #000000;
     }
 
     /* header social links */
@@ -417,14 +469,13 @@
 @media only screen and (max-width: 480px) {
     /* mobile navigation
    -------------------------------------------------------------------- */
-    #nav-wrap ul#nav {
+    /* #nav-wrap ul#nav {
         width: auto;
-        /* float: none; */
-    }
+    } */
 
     /* header styles
    -------------------------------------------------------------------- */
-    header .banner {
+    /* header .banner {
         padding-top: 24px;
     }
     header .banner-text h1 {
@@ -437,9 +488,8 @@
         top: 186px;
         color: lightgray;
         opacity: .45;
-        /* color:lightgrey; */
-    }
-
+    } */
+/* 
     header .banner-text h2 {
         position: absolute;
         width: 251px;
@@ -454,12 +504,9 @@
         line-height: 86px;
 
         color: #000000;
-    }
+    } */
     header .banner-text h3 {
-        /* z-index: 1;
-        font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-        width: 90%; */
-        position: absolute;
+        /* position: absolute;
         width: 269px;
         height: 29px;
         left: 53px;
@@ -469,16 +516,17 @@
         font-style: normal;
         font-weight: 300;
         font-size: 24px;
-        line-height: 29px;
+        line-height: 29px; */
+
         /* identical to box height */
-        
+/*         
         letter-spacing: 0.165em;
         
-        color: #000000;
+        color: #000000; */
     }
 
     /* header social links */
-    header .social {
+    /* header .social {
         font-size: 20px;
         display:none;
     }
@@ -489,7 +537,7 @@
 
     header hr {
         display:none;
-    }
+    } */
 
     /* footer
    ------------------------------------------------------------------------ */
