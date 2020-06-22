@@ -22,7 +22,7 @@ export default class About extends Component {
 
 
 
-               <h2>About Me</h2>
+               <h2>WHO I AM</h2>
                {
                  resumeData.aboutme.split('\n').map(text=>{
                     return <p style={{marginBottom:'1rem'}}>{text}</p>

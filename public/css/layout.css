@@ -238,9 +238,13 @@ ul#nav li a:hover {
     font: 3.2rem 'opensans-bold', sans-serif;
     color: black;
     margin-bottom: 8rem;
+    /* border: 1px black;
+    border-style: solid; */
+    outline: 4px double black;
+outline-offset: 4px;
 }
 
-#about div .line-4 {
+/* #about div .line-4 {
     position: absolute;
     width: 27.25px;
     height: 0px;
@@ -253,7 +257,7 @@ ul#nav li a:hover {
     position: absolute;
     width: 27.25px;
     height: 0px;
-    left: 299.75px;
+    left: 299px;
     top: 13px;
     border: 1px solid #000000;
 }
@@ -262,7 +266,7 @@ ul#nav li a:hover {
     position: absolute;
     width: 26.98px;
     height: 0px;
-    left: 314.95px;
+    left: 314px;
     top: 25px;
     
     border: 1px solid #000000;
@@ -273,8 +277,9 @@ ul#nav li a:hover {
     position: absolute;
     width: 26.98px;
     height: 0px;
-    left: 314.95px;
-    top: 82.499999px;
+    left: 314px;
+    top: 72.49999px;
+
 
     
     border: 1px solid #000000;
@@ -286,8 +291,8 @@ ul#nav li a:hover {
     position: absolute;
     width: 27.25px;
     height: 0px;
-    left: 299.75px;
-    top: 95px;
+    left: 299px;
+    top: 85px;
 
     
     border: 1px solid #000000;
@@ -298,7 +303,7 @@ ul#nav li a:hover {
     width: 27.25px;
     height: 0px;
     left: 88px;
-    top: 95px;
+    top: 85px;
     
     border: 1px solid #000000;
 }
@@ -308,7 +313,7 @@ ul#nav li a:hover {
     width: 27px;
     height: 0px;
     left: 74px;
-    top: 82.4px;
+    top: 72.49999px;
     
     border: 1px solid #000000;
     transform: rotate(90deg);
@@ -323,7 +328,7 @@ ul#nav li a:hover {
     
     border: 1px solid #000000;
     transform: rotate(90deg);
-}
+} */
 
 #about p {
     font-size: 1.7rem;
