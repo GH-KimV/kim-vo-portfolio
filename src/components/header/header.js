@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import TypingComponent from './TypingComponent';
 
+import DownArrow from '../../downArrow.svg'
+
 export default class Header extends Component {
     render() {
         let resumeData = this.props.resumeData;
@@ -11,13 +13,16 @@ export default class Header extends Component {
                     <div className='row banner'>
                         <div className='banner-text'>
                             <h1 className='responsive-headline'>
-                                <TypingComponent />
+                                KV
+                                {/* <TypingComponent /> */}
                             </h1>
+                            <h2>KIM VO</h2>
                             <h3>
-                                I am a {resumeData.role}{' '}
-                                {resumeData.roleDescription}
+                                {/* {resumeData.name}{' '} */}
+                                {/* {resumeData.roleDescription} */}
+                                {resumeData.role}
                             </h3>
-                            <hr />
+                            {/* <hr />
                             <ul className='social'>
                                 {resumeData.socialLinks &&
                                     resumeData.socialLinks.map(item => {
@@ -36,13 +41,15 @@ export default class Header extends Component {
                                             </li>
                                         );
                                     })}
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
 
                     <p className='scrolldown'>
                         <a className='smoothscroll' href='#about'>
-                            <i className='icon-down-circle'></i>
+                            {/* <i className='icon-down-circle'></i> */}
+                            {/* <i class="far fa-arrow-alt-circle-down"></i> */}
+                            <img src={DownArrow} alt="down arrow" />
                         </a>
                     </p>
                 </header>
