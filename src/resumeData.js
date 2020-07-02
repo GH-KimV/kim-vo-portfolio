@@ -43,8 +43,8 @@ let resumeData = {
     work: [
         {
             CompanyName: 'Codazen',
-            specialization: 'Engineer Intern',
-            MonthOfLeaving: 'January',
+            specialization: 'Web Developer',
+            MonthOfLeaving: 'Present',
             YearOfLeaving: '2020',
             Achievements:
                 'Played a key role as a web developer for internal projects and marketing sites. Worked closely with design team and project managers; utilized the latest frontend web technologies to build elegant and modern websites and web applications. '
